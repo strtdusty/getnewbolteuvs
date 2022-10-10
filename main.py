@@ -3,7 +3,7 @@ import json
 import jsonpickle
 from pymaybe import maybe
 from os.path import exists
-from colorama import Fore, Back, Style
+from colorama import Fore, Style
 
 class Bolt:
     def __init__(self,b):
@@ -74,7 +74,7 @@ def getCurrentBolts():
         "field": "radius",
         "operator": "IN",
         "values": [
-            250
+            400
         ],
         "key": "radius"
         },

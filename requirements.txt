@@ -1,0 +1,4 @@
+colorama==0.4.3
+jsonpickle==2.2.0
+pymaybe==0.1.6
+requests==2.22.0
