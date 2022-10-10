@@ -131,6 +131,6 @@ removedBolts = [n for n in savedBolts if n not in currentBolts]
 printDifferences(removedBolts,"Removed")
 
 if not len(newBolts) and not len(removedBolts):
-    print(Fore.GREEN+"No updates")
+    print(Fore.GREEN+"No updates"+Style.RESET_ALL)
     
 saveBolts(currentBolts)
